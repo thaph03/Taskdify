@@ -1,4 +1,5 @@
 const UIhandling = () => {
+  //Handle opening task forms
   const addContainer = document.querySelector(
     ".addContainer"
   ) as HTMLDivElement;
@@ -38,6 +39,8 @@ const UIhandling = () => {
   };
 
   addBtn.addEventListener("click", openAddForm);
+
+  // Render active pages (main tasks, today and this week)
 };
 
 export { UIhandling };
